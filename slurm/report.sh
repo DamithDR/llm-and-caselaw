@@ -9,7 +9,7 @@
 #   sbatch slurm/report.sh
 # ==============================================================================
 #SBATCH -J ldv_report
-#SBATCH -p cpu
+#SBATCH -p serial
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G

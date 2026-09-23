@@ -17,9 +17,15 @@ Always submit **from the repo root** — the jobs `cd` into `SLURM_SUBMIT_DIR`.
 
 ```bash
 bash slurm/submit_all.sh --dry-run     # see the sbatch lines first
+bash slurm/submit_all.sh --check       # ask the scheduler to validate them, queue nothing
 bash slurm/submit_all.sh --smoke       # 5 jurisdictions per model, ~15 min end to end
 bash slurm/submit_all.sh               # the real sweep
 ```
+
+`--check` runs every request through `sbatch --test-only`, so a bad partition or an
+impossible `--gres` is caught before anything is queued. Worth doing after any change to
+partitions or sizing: the report job is submitted last, so without it a mistake there
+only surfaces once all 13 model jobs are already in the queue.
 
 Useful variants:
 
@@ -45,6 +51,17 @@ PYTHON=/storage/hpc/41/dolamull/envs/teacher/bin/python bash slurm/submit_all.sh
 
 The banner prints which interpreter it picked. It is used only for that query — the jobs
 themselves always source `slurm/_env.sh` and run from `PROJECT_ENV`.
+
+### CPU jobs
+
+`run_api.sh` (HTTPS calls only) and `report.sh` (aggregation) need no GPU and go to
+`serial`, this cluster's single-core queue. If your site names it differently:
+
+```bash
+CPU_PARTITION=short bash slurm/submit_all.sh
+```
+
+`sinfo -s` lists the real partition names if `serial` is ever rejected.
 
 ## Resources
 

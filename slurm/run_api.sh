@@ -21,9 +21,9 @@
 #   sbatch --export=ALL,MODELS="gpt-4o-mini",LIMIT=5 slurm/run_api.sh
 # ==============================================================================
 #SBATCH -J ldv_api
-#SBATCH -p cpu
+#SBATCH -p serial
 #SBATCH --nodes=1
-#SBATCH --cpus-per-task=2
+#SBATCH --cpus-per-task=1
 #SBATCH --mem=8G
 #SBATCH --time=08:00:00
 #SBATCH -o logs/%x_%j.out
