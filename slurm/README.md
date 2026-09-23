@@ -30,6 +30,22 @@ bash slurm/submit_all.sh --no-api           # open weights only
 bash slurm/submit_all.sh --no-astro         # H200 only, do not use the L40S pool
 ```
 
+### python on the login node
+
+`submit_all.sh` runs a short stdlib-only query against `experiments/models_hf.py` to
+decide each model's resources, so it needs an interpreter **on the login node** — where
+the conda env is not active, since `_env.sh` only activates it inside the jobs. It tries
+`$PYTHON`, then `$PROJECT_ENV/bin/python`, then `python3`, then `python`, and checks each
+one actually runs rather than just resolving on `PATH`. If it finds none:
+
+```bash
+module load miniforge/20251003            # or
+PYTHON=/storage/hpc/41/dolamull/envs/teacher/bin/python bash slurm/submit_all.sh
+```
+
+The banner prints which interpreter it picked. It is used only for that query — the jobs
+themselves always source `slurm/_env.sh` and run from `PROJECT_ENV`.
+
 ## Resources
 
 The [cluster's GPUs](https://lancaster-hec.readthedocs.io/en/latest/gpu.html) are not

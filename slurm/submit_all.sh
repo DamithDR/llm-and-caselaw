@@ -58,12 +58,37 @@ if [[ ! -d experiments || ! -d prompts ]]; then
 fi
 mkdir -p logs results
 
+# Find an interpreter for the registry query below. This runs on the LOGIN node,
+# where the conda env is not active — slurm/_env.sh only activates it inside the
+# jobs — so plain `python` is usually not on PATH. Nothing here needs the env:
+# experiments/models_hf.py is stdlib-only, so any python3 will do. Override with
+# PYTHON=/path/to/python if none of these is right.
+: "${PROJECT_ENV:=/storage/hpc/41/dolamull/envs/teacher}"
+# Test that each candidate actually RUNS and is Python 3 — merely existing on PATH
+# is not enough (a stub shim or a dangling symlink passes `command -v` and then
+# fails at the point of use).
+PY_BIN=""
+for c in "${PYTHON:-}" "${PROJECT_ENV}/bin/python" python3 python; do
+    [[ -z "$c" ]] && continue
+    if "$c" -c 'import sys; sys.exit(0 if sys.version_info[0] == 3 else 1)' >/dev/null 2>&1; then
+        PY_BIN="$c"; break
+    fi
+done
+if [[ -z "$PY_BIN" ]]; then
+    echo "ERROR: no python found on PATH (tried \$PYTHON, ${PROJECT_ENV}/bin/python, python3, python)." >&2
+    echo "       The registry query needs stdlib python3 only. Either load the module:" >&2
+    echo "           module load miniforge/20251003" >&2
+    echo "       or point at an interpreter directly:" >&2
+    echo "           PYTHON=${PROJECT_ENV}/bin/python bash slurm/submit_all.sh" >&2
+    exit 1
+fi
+
 # Ask the registry which models to run, so this script never drifts from
 # experiments/models_hf.py. Gated repos are included only if HF_TOKEN is set.
 [ -f .env ] && { set -a; . ./.env; set +a; }
 INCLUDE_GATED=$([ -n "${HF_TOKEN:-}" ] && echo 1 || echo 0)
 
-MODEL_LINES="$(python - "$MAX_PARAMS" "$MIN_PARAMS" "$INCLUDE_GATED" "$ASTRO" <<'PY'
+MODEL_LINES="$("$PY_BIN" - "$MAX_PARAMS" "$MIN_PARAMS" "$INCLUDE_GATED" "$ASTRO" <<'PY'
 import sys
 sys.path.insert(0, ".")
 from experiments import models_hf
@@ -109,6 +134,7 @@ echo "  models      : $(echo "$MODEL_LINES" | wc -l)"
 echo "  gated repos : $([ "$INCLUDE_GATED" = 1 ] && echo "included (HF_TOKEN set)" || echo "skipped (no HF_TOKEN)")"
 echo "  jurisdiction: ${SMOKE:-all 195}"
 echo "  gpu pool    : $([ "$ASTRO" = 1 ] && echo "astro L40S for <=35B, H200 above" || echo "H200 only (--no-astro)")"
+echo "  python      : $(command -v "$PY_BIN") (registry query only; jobs use PROJECT_ENV)"
 echo "  dry run     : $([ "$DRY_RUN" = 1 ] && echo yes || echo no)"
 echo "=============================================================================="
 
@@ -172,6 +198,6 @@ echo "==========================================================================
 [[ "$DRY_RUN" = 1 ]] || {
     echo "  squeue -u \$USER            # watch progress"
     echo "  tail -f logs/ldv_*.out     # follow a job"
-    echo "  python experiments/report.py   # statistics at any time"
+    echo "  $PY_BIN experiments/report.py   # statistics at any time"
 }
 echo "=============================================================================="
