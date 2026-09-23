@@ -146,7 +146,7 @@ echo "  repo        : $PWD"
 echo "  models      : $(echo "$MODEL_LINES" | wc -l)"
 echo "  gated repos : $([ "$INCLUDE_GATED" = 1 ] && echo "included (HF_TOKEN set)" || echo "skipped (no HF_TOKEN)")"
 echo "  jurisdiction: ${SMOKE:-all 195}"
-echo "  gpu pool    : $([ "$ASTRO" = 1 ] && echo "astro ASTRO for <=35B, H200 above" || echo "H200 only (--no-astro)")"
+echo "  gpu pool    : $([ "$ASTRO" = 1 ] && echo "astro 48GB (L40/L40S) for <=35B, H200 above" || echo "H200 only (--no-astro)")"
 echo "  python      : $(command -v "$PY_BIN") (registry query only; jobs use PROJECT_ENV)"
 echo "  cpu jobs    : partition $CPU_PART (api + report)"
 echo "  mode        : $([ "$DRY_RUN" = 1 ] && echo "dry run" || { [ "$CHECK_ONLY" = 1 ] && echo "check (sbatch --test-only)" || echo "submit"; })"
@@ -184,12 +184,17 @@ while IFS=$'\t' read -r MODEL PARAMS TP GPUS GRES PART WALLTIME; do
     EXPORTS="ALL,MODEL=${MODEL},TENSOR_PARALLEL_SIZE=${TP}"
     [[ -n "$SMOKE" ]] && EXPORTS="${EXPORTS},LIMIT=${SMOKE}"
     EXPORTS="${EXPORTS}${EXTRA_EXPORT}"
-    # Short label for the GPU type, for the submission line only.
-    CARD="${GRES##nvidia_}"; CARD="${CARD%%_nvl}"
+    # "-" means any GPU in the partition; otherwise pin the card type.
+    if [[ "$GRES" == "-" ]]; then
+        GRES_ARG="gpu:${GPUS}"; CARD="gpu"
+    else
+        GRES_ARG="gpu:${GRES}:${GPUS}"
+        CARD="${GRES##nvidia_}"; CARD="${CARD%%_nvl}"
+    fi
     submit "${MODEL} (${PARAMS}B, ${GPUS}x${CARD}, ${PART})" \
         --job-name="ldv_${SLUG}" \
         --partition="$PART" \
-        --gres="gpu:${GRES}:${GPUS}" \
+        --gres="$GRES_ARG" \
         --nodes=1 \
         --time="$WALLTIME" \
         --export="$EXPORTS" \

@@ -68,12 +68,16 @@ CPU_PARTITION=short bash slurm/submit_all.sh
 The [cluster's GPUs](https://lancaster-hec.readthedocs.io/en/latest/gpu.html) are not
 evenly stocked, and that drives the whole sizing policy:
 
-| Card | VRAM | Cards | Per node | Queues | Max GPUs/user |
-|---|---|---|---|---|---|
-| H200 NVL | 141 GB | **4** (2 nodes) | 2 | `gpu-short`, `gpu-medium`, `gpu-long` | unlimited / 6 / 2 |
-| L40S | 48 GB | **15** (5 nodes) | 3 | `astro` (24 h) | 15 |
-| L40 | 48 GB | 8 (2 nodes) | 4 | `astro` (24 h) | 15 |
-| V100 | 32 GB | 24 (8 nodes) | 3 | `gpu-short`, `gpu-medium`, `gpu-long` | as above |
+| Card | VRAM | Cards | Nodes | Per node | Queues | Max GPUs/user |
+|---|---|---|---|---|---|---|
+| H200 NVL | 141 GB | **4** | `gpu11-12` | 2 | `gpu-short`, `gpu-medium`, `gpu-long` | unlimited / 6 / 2 |
+| L40S | 48 GB | **15** | `gpu13-17` | 3 | `astro` | 15 |
+| L40 | 48 GB | 8 | `gpu09-10` | 4 | `astro` | 15 |
+| V100 | 32 GB | 24 | `gpu01-08` | 3 | `gpu-short`, `gpu-medium`, `gpu-long` | as above |
+
+Queue time limits (`sinfo`): `gpu-short` 12 h, `gpu-medium` 2 days, `gpu-long` 7 days,
+`astro` 1 day. The CPU queues — `serial` (the cluster default), `parallel`, `grid`,
+`test` — are untimed apart from `grid` at 3 days and `test` at 5 minutes.
 
 There are only four H200 cards on the whole machine, so putting all twenty models on
 them serialises the sweep. Fifteen of the twenty are ≤ 15B and fit one 48 GB L40S, so
@@ -81,10 +85,19 @@ they go to `astro` and the H200s are reserved for the models that actually need 
 
 | Model size | GPUs | TP | Partition | Card | Walltime |
 |---|---|---|---|---|---|
-| ≤ 15B | 1 | 1 | `astro` | L40S | 03:00:00 |
-| 16–35B | 2 | 2 | `astro` | L40S | 04:00:00 |
-| 36–47B | 1 | 1 | `gpu-short` | H200 | 03:00:00 |
-| > 47B | 2 | 2 | `gpu-medium` | H200 | 06:00:00 |
+| ≤ 15B | 1 | 1 | `astro` | any 48 GB | 03:00:00 |
+| 16–35B | 2 | 2 | `astro` | any 48 GB | 04:00:00 |
+| 36–47B | 1 | 1 | `gpu-short` | H200 (pinned) | 03:00:00 |
+| > 47B | 2 | 2 | `gpu-medium` | H200 (pinned) | 06:00:00 |
+
+The astro jobs request an **untyped** `--gres=gpu:N`, so they take an L40 or an L40S,
+whichever is free — both are 48 GB, so the sizing is identical, and pinning one type
+would leave the other idling. `--nodes=1` keeps a TP=2 pair on one node, so a pair is
+never split across card types. Pin it with `ASTRO_GRES=nvidia_l40s` if needed.
+
+The H200 requests stay **type-pinned on purpose**: `gpu-short` and `gpu-medium` also
+contain the 32 GB V100 nodes, so an untyped request there could place a 107 GB model on
+a V100 and OOM. Only `astro` is homogeneous enough to leave untyped.
 
 Usable VRAM is the card times `GPU_MEMORY_UTIL` (0.90): 43 GB per L40S, 127 GB per H200.
 Against the registry's `vram_gb_bf16` (params × 2 × 1.15) that gives:
