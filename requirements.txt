@@ -1,0 +1,8 @@
+# Experiments (experiments/)
+transformers>=4.44        # --backend local
+torch>=2.3                # --backend local / vllm
+accelerate>=0.33          # --backend local
+vllm>=0.6                 # --backend vllm (GPU cluster)
+huggingface_hub>=0.24     # --backend api
+openai>=1.40              # OpenAI + DeepSeek (OpenAI-compatible)
+anthropic>=0.34           # Claude

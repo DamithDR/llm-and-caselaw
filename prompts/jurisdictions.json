@@ -1,0 +1,1367 @@
+[
+ {
+  "name": "Algeria",
+  "phrase": "Algeria",
+  "region": "Africa",
+  "repo_name": "Algeria",
+  "language": "AR"
+ },
+ {
+  "name": "Angola",
+  "phrase": "Angola",
+  "region": "Africa",
+  "repo_name": "Angola",
+  "language": "PT"
+ },
+ {
+  "name": "Benin",
+  "phrase": "Benin",
+  "region": "Africa",
+  "repo_name": "Benin",
+  "language": "FR"
+ },
+ {
+  "name": "Botswana",
+  "phrase": "Botswana",
+  "region": "Africa",
+  "repo_name": "Botswana",
+  "language": "EN"
+ },
+ {
+  "name": "Burkina Faso",
+  "phrase": "Burkina Faso",
+  "region": "Africa",
+  "repo_name": "Burkina Faso",
+  "language": "FR"
+ },
+ {
+  "name": "Burundi",
+  "phrase": "Burundi",
+  "region": "Africa",
+  "repo_name": "Burundi",
+  "language": "FR"
+ },
+ {
+  "name": "Cabo Verde",
+  "phrase": "Cabo Verde",
+  "region": "Africa",
+  "repo_name": "Cabo Verde",
+  "language": "PT"
+ },
+ {
+  "name": "Cameroon",
+  "phrase": "Cameroon",
+  "region": "Africa",
+  "repo_name": "Cameroon",
+  "language": "EN/FR"
+ },
+ {
+  "name": "Central African Republic",
+  "phrase": "the Central African Republic",
+  "region": "Africa",
+  "repo_name": "Central African Republic",
+  "language": "FR"
+ },
+ {
+  "name": "Chad",
+  "phrase": "Chad",
+  "region": "Africa",
+  "repo_name": "Chad",
+  "language": "FR/AR"
+ },
+ {
+  "name": "Comoros",
+  "phrase": "the Comoros",
+  "region": "Africa",
+  "repo_name": "Comoros",
+  "language": "SWB/AR/FR"
+ },
+ {
+  "name": "Côte d'Ivoire",
+  "phrase": "Côte d'Ivoire",
+  "region": "Africa",
+  "repo_name": "Côte d'Ivoire",
+  "language": "FR"
+ },
+ {
+  "name": "Democratic Republic of the Congo",
+  "phrase": "the Democratic Republic of the Congo",
+  "region": "Africa",
+  "repo_name": "Democratic Republic of the Congo",
+  "language": "FR"
+ },
+ {
+  "name": "Djibouti",
+  "phrase": "Djibouti",
+  "region": "Africa",
+  "repo_name": "Djibouti",
+  "language": "FR"
+ },
+ {
+  "name": "Egypt",
+  "phrase": "Egypt",
+  "region": "Africa",
+  "repo_name": "Egypt",
+  "language": "AR"
+ },
+ {
+  "name": "Equatorial Guinea",
+  "phrase": "Equatorial Guinea",
+  "region": "Africa",
+  "repo_name": "Equatorial Guinea",
+  "language": "FR"
+ },
+ {
+  "name": "Eritrea",
+  "phrase": "Eritrea",
+  "region": "Africa",
+  "repo_name": "Eritrea",
+  "language": "AR/EN"
+ },
+ {
+  "name": "Eswatini",
+  "phrase": "Eswatini",
+  "region": "Africa",
+  "repo_name": "Eswatini (fmr. \"Swaziland\")",
+  "language": "EN"
+ },
+ {
+  "name": "Ethiopia",
+  "phrase": "Ethiopia",
+  "region": "Africa",
+  "repo_name": "Ethiopia",
+  "language": "AM"
+ },
+ {
+  "name": "Gabon",
+  "phrase": "Gabon",
+  "region": "Africa",
+  "repo_name": "Gabon",
+  "language": "FR"
+ },
+ {
+  "name": "Gambia",
+  "phrase": "the Gambia",
+  "region": "Africa",
+  "repo_name": "Gambia",
+  "language": "EN"
+ },
+ {
+  "name": "Ghana",
+  "phrase": "Ghana",
+  "region": "Africa",
+  "repo_name": "Ghana",
+  "language": "EN"
+ },
+ {
+  "name": "Guinea",
+  "phrase": "Guinea",
+  "region": "Africa",
+  "repo_name": "Guinea",
+  "language": "FR"
+ },
+ {
+  "name": "Guinea-Bissau",
+  "phrase": "Guinea-Bissau",
+  "region": "Africa",
+  "repo_name": "Guinea-Bissau",
+  "language": "PT"
+ },
+ {
+  "name": "Kenya",
+  "phrase": "Kenya",
+  "region": "Africa",
+  "repo_name": "Kenya",
+  "language": "EN"
+ },
+ {
+  "name": "Lesotho",
+  "phrase": "Lesotho",
+  "region": "Africa",
+  "repo_name": "Lesotho",
+  "language": "EN"
+ },
+ {
+  "name": "Liberia",
+  "phrase": "Liberia",
+  "region": "Africa",
+  "repo_name": "Liberia",
+  "language": "EN"
+ },
+ {
+  "name": "Libya",
+  "phrase": "Libya",
+  "region": "Africa",
+  "repo_name": "Libya",
+  "language": "AR"
+ },
+ {
+  "name": "Madagascar",
+  "phrase": "Madagascar",
+  "region": "Africa",
+  "repo_name": "Madagascar",
+  "language": "FR"
+ },
+ {
+  "name": "Malawi",
+  "phrase": "Malawi",
+  "region": "Africa",
+  "repo_name": "Malawi",
+  "language": "EN"
+ },
+ {
+  "name": "Mali",
+  "phrase": "Mali",
+  "region": "Africa",
+  "repo_name": "Mali",
+  "language": "FR"
+ },
+ {
+  "name": "Mauritania",
+  "phrase": "Mauritania",
+  "region": "Africa",
+  "repo_name": "Mauritania",
+  "language": "FR"
+ },
+ {
+  "name": "Mauritius",
+  "phrase": "Mauritius",
+  "region": "Africa",
+  "repo_name": "Mauritius",
+  "language": "EN"
+ },
+ {
+  "name": "Morocco",
+  "phrase": "Morocco",
+  "region": "Africa",
+  "repo_name": "Morocco",
+  "language": "AR"
+ },
+ {
+  "name": "Mozambique",
+  "phrase": "Mozambique",
+  "region": "Africa",
+  "repo_name": "Mozambique",
+  "language": "PT"
+ },
+ {
+  "name": "Namibia",
+  "phrase": "Namibia",
+  "region": "Africa",
+  "repo_name": "Namibia",
+  "language": "EN"
+ },
+ {
+  "name": "Niger",
+  "phrase": "Niger",
+  "region": "Africa",
+  "repo_name": "Niger",
+  "language": "FR"
+ },
+ {
+  "name": "Nigeria",
+  "phrase": "Nigeria",
+  "region": "Africa",
+  "repo_name": "Nigeria",
+  "language": "EN"
+ },
+ {
+  "name": "Republic of the Congo",
+  "phrase": "the Republic of the Congo",
+  "region": "Africa",
+  "repo_name": "Congo (Congo-Brazzaville)",
+  "language": "FR"
+ },
+ {
+  "name": "Rwanda",
+  "phrase": "Rwanda",
+  "region": "Africa",
+  "repo_name": "Rwanda",
+  "language": "EN"
+ },
+ {
+  "name": "Sao Tome and Principe",
+  "phrase": "Sao Tome and Principe",
+  "region": "Africa",
+  "repo_name": "Sao Tome and Principe",
+  "language": "PT"
+ },
+ {
+  "name": "Senegal",
+  "phrase": "Senegal",
+  "region": "Africa",
+  "repo_name": "Senegal",
+  "language": "FR"
+ },
+ {
+  "name": "Seychelles",
+  "phrase": "the Seychelles",
+  "region": "Africa",
+  "repo_name": "Seychelles",
+  "language": "EN"
+ },
+ {
+  "name": "Sierra Leone",
+  "phrase": "Sierra Leone",
+  "region": "Africa",
+  "repo_name": "Sierra Leone",
+  "language": "EN"
+ },
+ {
+  "name": "Somalia",
+  "phrase": "Somalia",
+  "region": "Africa",
+  "repo_name": "Somalia",
+  "language": "SO"
+ },
+ {
+  "name": "South Africa",
+  "phrase": "South Africa",
+  "region": "Africa",
+  "repo_name": "South Africa",
+  "language": "EN"
+ },
+ {
+  "name": "South Sudan",
+  "phrase": "South Sudan",
+  "region": "Africa",
+  "repo_name": "South Sudan",
+  "language": "EN"
+ },
+ {
+  "name": "Sudan",
+  "phrase": "Sudan",
+  "region": "Africa",
+  "repo_name": "Sudan",
+  "language": "AR"
+ },
+ {
+  "name": "Tanzania",
+  "phrase": "Tanzania",
+  "region": "Africa",
+  "repo_name": "Tanzania",
+  "language": "EN"
+ },
+ {
+  "name": "Togo",
+  "phrase": "Togo",
+  "region": "Africa",
+  "repo_name": "Togo",
+  "language": "FR"
+ },
+ {
+  "name": "Tunisia",
+  "phrase": "Tunisia",
+  "region": "Africa",
+  "repo_name": "Tunisia",
+  "language": "FR/AR"
+ },
+ {
+  "name": "Uganda",
+  "phrase": "Uganda",
+  "region": "Africa",
+  "repo_name": "Uganda",
+  "language": "EN"
+ },
+ {
+  "name": "Zambia",
+  "phrase": "Zambia",
+  "region": "Africa",
+  "repo_name": "Zambia",
+  "language": "EN"
+ },
+ {
+  "name": "Zimbabwe",
+  "phrase": "Zimbabwe",
+  "region": "Africa",
+  "repo_name": "Zimbabwe",
+  "language": "EN"
+ },
+ {
+  "name": "Afghanistan",
+  "phrase": "Afghanistan",
+  "region": "Asia",
+  "repo_name": "Afghanistan",
+  "language": "AR"
+ },
+ {
+  "name": "Armenia",
+  "phrase": "Armenia",
+  "region": "Asia",
+  "repo_name": "Armenia",
+  "language": "HY"
+ },
+ {
+  "name": "Azerbaijan",
+  "phrase": "Azerbaijan",
+  "region": "Asia",
+  "repo_name": "Azerbaijan",
+  "language": "AZ"
+ },
+ {
+  "name": "Bahrain",
+  "phrase": "Bahrain",
+  "region": "Asia",
+  "repo_name": "Bahrain",
+  "language": "AR"
+ },
+ {
+  "name": "Bangladesh",
+  "phrase": "Bangladesh",
+  "region": "Asia",
+  "repo_name": "Bangladesh",
+  "language": "BN"
+ },
+ {
+  "name": "Bhutan",
+  "phrase": "Bhutan",
+  "region": "Asia",
+  "repo_name": "Bhutan",
+  "language": "EN"
+ },
+ {
+  "name": "Brunei Darussalam",
+  "phrase": "Brunei Darussalam",
+  "region": "Asia",
+  "repo_name": "Brunei",
+  "language": "EN"
+ },
+ {
+  "name": "Cambodia",
+  "phrase": "Cambodia",
+  "region": "Asia",
+  "repo_name": "Cambodia",
+  "language": "KM"
+ },
+ {
+  "name": "China",
+  "phrase": "China",
+  "region": "Asia",
+  "repo_name": "China",
+  "language": "ZH"
+ },
+ {
+  "name": "India",
+  "phrase": "India",
+  "region": "Asia",
+  "repo_name": "India",
+  "language": "EN"
+ },
+ {
+  "name": "Indonesia",
+  "phrase": "Indonesia",
+  "region": "Asia",
+  "repo_name": "Indonesia",
+  "language": "ID"
+ },
+ {
+  "name": "Iran",
+  "phrase": "Iran",
+  "region": "Asia",
+  "repo_name": "Iran",
+  "language": "FA"
+ },
+ {
+  "name": "Iraq",
+  "phrase": "Iraq",
+  "region": "Asia",
+  "repo_name": "Iraq",
+  "language": "AR/KUR"
+ },
+ {
+  "name": "Israel",
+  "phrase": "Israel",
+  "region": "Asia",
+  "repo_name": "Israel",
+  "language": "HE"
+ },
+ {
+  "name": "Japan",
+  "phrase": "Japan",
+  "region": "Asia",
+  "repo_name": "Japan",
+  "language": "JA"
+ },
+ {
+  "name": "Jordan",
+  "phrase": "Jordan",
+  "region": "Asia",
+  "repo_name": "Jordan",
+  "language": "AR"
+ },
+ {
+  "name": "Kazakhstan",
+  "phrase": "Kazakhstan",
+  "region": "Asia",
+  "repo_name": "Kazakhstan",
+  "language": "KK"
+ },
+ {
+  "name": "Kuwait",
+  "phrase": "Kuwait",
+  "region": "Asia",
+  "repo_name": "Kuwait",
+  "language": "AR"
+ },
+ {
+  "name": "Kyrgyzstan",
+  "phrase": "Kyrgyzstan",
+  "region": "Asia",
+  "repo_name": "Kyrgyzstan",
+  "language": "KY/RU"
+ },
+ {
+  "name": "Laos",
+  "phrase": "Laos",
+  "region": "Asia",
+  "repo_name": "Laos",
+  "language": "LO"
+ },
+ {
+  "name": "Lebanon",
+  "phrase": "Lebanon",
+  "region": "Asia",
+  "repo_name": "Lebanon",
+  "language": "AR"
+ },
+ {
+  "name": "Malaysia",
+  "phrase": "Malaysia",
+  "region": "Asia",
+  "repo_name": "Malaysia",
+  "language": "MS/EN"
+ },
+ {
+  "name": "Maldives",
+  "phrase": "the Maldives",
+  "region": "Asia",
+  "repo_name": "Maldives",
+  "language": "DV"
+ },
+ {
+  "name": "Mongolia",
+  "phrase": "Mongolia",
+  "region": "Asia",
+  "repo_name": "Mongolia",
+  "language": "MN"
+ },
+ {
+  "name": "Myanmar",
+  "phrase": "Myanmar",
+  "region": "Asia",
+  "repo_name": "Myanmar",
+  "language": "MY"
+ },
+ {
+  "name": "Nepal",
+  "phrase": "Nepal",
+  "region": "Asia",
+  "repo_name": "Nepal",
+  "language": "NE"
+ },
+ {
+  "name": "North Korea",
+  "phrase": "North Korea",
+  "region": "Asia",
+  "repo_name": "North Korea",
+  "language": "KO"
+ },
+ {
+  "name": "Oman",
+  "phrase": "Oman",
+  "region": "Asia",
+  "repo_name": "Oman",
+  "language": "AR"
+ },
+ {
+  "name": "Pakistan",
+  "phrase": "Pakistan",
+  "region": "Asia",
+  "repo_name": "Pakistan",
+  "language": "EN"
+ },
+ {
+  "name": "Philippines",
+  "phrase": "the Philippines",
+  "region": "Asia",
+  "repo_name": "Philippines",
+  "language": "EN"
+ },
+ {
+  "name": "Qatar",
+  "phrase": "Qatar",
+  "region": "Asia",
+  "repo_name": "Qatar",
+  "language": "AR"
+ },
+ {
+  "name": "Saudi Arabia",
+  "phrase": "Saudi Arabia",
+  "region": "Asia",
+  "repo_name": "Saudi Arabia",
+  "language": "AR"
+ },
+ {
+  "name": "Singapore",
+  "phrase": "Singapore",
+  "region": "Asia",
+  "repo_name": "Singapore",
+  "language": "EN"
+ },
+ {
+  "name": "South Korea",
+  "phrase": "South Korea",
+  "region": "Asia",
+  "repo_name": "South Korea",
+  "language": "KO/EN"
+ },
+ {
+  "name": "Sri Lanka",
+  "phrase": "Sri Lanka",
+  "region": "Asia",
+  "repo_name": "Sri Lanka",
+  "language": "EN/SI/TA"
+ },
+ {
+  "name": "State of Palestine",
+  "phrase": "the State of Palestine",
+  "region": "Asia",
+  "repo_name": "Palestine State",
+  "language": "AR"
+ },
+ {
+  "name": "Syria",
+  "phrase": "Syria",
+  "region": "Asia",
+  "repo_name": "Syria",
+  "language": "AR"
+ },
+ {
+  "name": "Tajikistan",
+  "phrase": "Tajikistan",
+  "region": "Asia",
+  "repo_name": "Tajikistan",
+  "language": "TG/RU"
+ },
+ {
+  "name": "Thailand",
+  "phrase": "Thailand",
+  "region": "Asia",
+  "repo_name": "Thailand",
+  "language": "TH"
+ },
+ {
+  "name": "Timor-Leste",
+  "phrase": "Timor-Leste",
+  "region": "Asia",
+  "repo_name": "Timor-Leste",
+  "language": "PT/TET"
+ },
+ {
+  "name": "Turkey",
+  "phrase": "Turkey",
+  "region": "Asia",
+  "repo_name": "Turkey",
+  "language": "TR"
+ },
+ {
+  "name": "Turkmenistan",
+  "phrase": "Turkmenistan",
+  "region": "Asia",
+  "repo_name": "Turkmenistan",
+  "language": "TK"
+ },
+ {
+  "name": "United Arab Emirates",
+  "phrase": "the United Arab Emirates",
+  "region": "Asia",
+  "repo_name": "United Arab Emirates",
+  "language": "AR"
+ },
+ {
+  "name": "Uzbekistan",
+  "phrase": "Uzbekistan",
+  "region": "Asia",
+  "repo_name": "Uzbekistan",
+  "language": "UZ"
+ },
+ {
+  "name": "Vietnam",
+  "phrase": "Vietnam",
+  "region": "Asia",
+  "repo_name": "Vietnam",
+  "language": "VI"
+ },
+ {
+  "name": "Yemen",
+  "phrase": "Yemen",
+  "region": "Asia",
+  "repo_name": "Yemen",
+  "language": "AR"
+ },
+ {
+  "name": "Albania",
+  "phrase": "Albania",
+  "region": "Europe",
+  "repo_name": "Albania",
+  "language": "SQ"
+ },
+ {
+  "name": "Andorra",
+  "phrase": "Andorra",
+  "region": "Europe",
+  "repo_name": "Andorra",
+  "language": "CA"
+ },
+ {
+  "name": "Austria",
+  "phrase": "Austria",
+  "region": "Europe",
+  "repo_name": "Austria",
+  "language": "DE"
+ },
+ {
+  "name": "Belarus",
+  "phrase": "Belarus",
+  "region": "Europe",
+  "repo_name": "Belarus",
+  "language": "BE"
+ },
+ {
+  "name": "Belgium",
+  "phrase": "Belgium",
+  "region": "Europe",
+  "repo_name": "Belgium",
+  "language": "FR/NL"
+ },
+ {
+  "name": "Bosnia and Herzegovina",
+  "phrase": "Bosnia and Herzegovina",
+  "region": "Europe",
+  "repo_name": "Bosnia and Herzegovina",
+  "language": "BS"
+ },
+ {
+  "name": "Bulgaria",
+  "phrase": "Bulgaria",
+  "region": "Europe",
+  "repo_name": "Bulgaria",
+  "language": "BG"
+ },
+ {
+  "name": "Croatia",
+  "phrase": "Croatia",
+  "region": "Europe",
+  "repo_name": "Croatia",
+  "language": "HR"
+ },
+ {
+  "name": "Cyprus",
+  "phrase": "Cyprus",
+  "region": "Europe",
+  "repo_name": "Cyprus",
+  "language": "EL"
+ },
+ {
+  "name": "Czechia",
+  "phrase": "Czechia",
+  "region": "Europe",
+  "repo_name": "Czechia (Czech Republic)",
+  "language": "CS"
+ },
+ {
+  "name": "Denmark",
+  "phrase": "Denmark",
+  "region": "Europe",
+  "repo_name": "Denmark",
+  "language": "DA"
+ },
+ {
+  "name": "Estonia",
+  "phrase": "Estonia",
+  "region": "Europe",
+  "repo_name": "Estonia",
+  "language": "ET"
+ },
+ {
+  "name": "Finland",
+  "phrase": "Finland",
+  "region": "Europe",
+  "repo_name": "Finland",
+  "language": "FI/SV"
+ },
+ {
+  "name": "France",
+  "phrase": "France",
+  "region": "Europe",
+  "repo_name": "France",
+  "language": "FR"
+ },
+ {
+  "name": "Georgia",
+  "phrase": "Georgia",
+  "region": "Europe",
+  "repo_name": "Georgia",
+  "language": "KA"
+ },
+ {
+  "name": "Germany",
+  "phrase": "Germany",
+  "region": "Europe",
+  "repo_name": "Germany",
+  "language": "DE"
+ },
+ {
+  "name": "Greece",
+  "phrase": "Greece",
+  "region": "Europe",
+  "repo_name": "Greece",
+  "language": "EL"
+ },
+ {
+  "name": "Hungary",
+  "phrase": "Hungary",
+  "region": "Europe",
+  "repo_name": "Hungary",
+  "language": "HU"
+ },
+ {
+  "name": "Iceland",
+  "phrase": "Iceland",
+  "region": "Europe",
+  "repo_name": "Iceland",
+  "language": "IS"
+ },
+ {
+  "name": "Ireland",
+  "phrase": "Ireland",
+  "region": "Europe",
+  "repo_name": "Ireland",
+  "language": "GA/EN"
+ },
+ {
+  "name": "Italy",
+  "phrase": "Italy",
+  "region": "Europe",
+  "repo_name": "Italy",
+  "language": "IT"
+ },
+ {
+  "name": "Latvia",
+  "phrase": "Latvia",
+  "region": "Europe",
+  "repo_name": "Latvia",
+  "language": "LV"
+ },
+ {
+  "name": "Liechtenstein",
+  "phrase": "Liechtenstein",
+  "region": "Europe",
+  "repo_name": "Liechtenstein",
+  "language": "DE"
+ },
+ {
+  "name": "Lithuania",
+  "phrase": "Lithuania",
+  "region": "Europe",
+  "repo_name": "Lithuania",
+  "language": "LT"
+ },
+ {
+  "name": "Luxembourg",
+  "phrase": "Luxembourg",
+  "region": "Europe",
+  "repo_name": "Luxembourg",
+  "language": "FR/DE/LB"
+ },
+ {
+  "name": "Malta",
+  "phrase": "Malta",
+  "region": "Europe",
+  "repo_name": "Malta",
+  "language": "MT"
+ },
+ {
+  "name": "Moldova",
+  "phrase": "Moldova",
+  "region": "Europe",
+  "repo_name": "Moldova",
+  "language": "RO"
+ },
+ {
+  "name": "Monaco",
+  "phrase": "Monaco",
+  "region": "Europe",
+  "repo_name": "Monaco",
+  "language": "FR"
+ },
+ {
+  "name": "Montenegro",
+  "phrase": "Montenegro",
+  "region": "Europe",
+  "repo_name": "Montenegro",
+  "language": "CNR"
+ },
+ {
+  "name": "Netherlands",
+  "phrase": "the Netherlands",
+  "region": "Europe",
+  "repo_name": "Netherlands",
+  "language": "NL"
+ },
+ {
+  "name": "North Macedonia",
+  "phrase": "North Macedonia",
+  "region": "Europe",
+  "repo_name": "North Macedonia",
+  "language": "MK"
+ },
+ {
+  "name": "Norway",
+  "phrase": "Norway",
+  "region": "Europe",
+  "repo_name": "Norway",
+  "language": "NO"
+ },
+ {
+  "name": "Poland",
+  "phrase": "Poland",
+  "region": "Europe",
+  "repo_name": "Poland",
+  "language": "PL/EN"
+ },
+ {
+  "name": "Portugal",
+  "phrase": "Portugal",
+  "region": "Europe",
+  "repo_name": "Portugal",
+  "language": "PT"
+ },
+ {
+  "name": "Romania",
+  "phrase": "Romania",
+  "region": "Europe",
+  "repo_name": "Romania",
+  "language": "RO"
+ },
+ {
+  "name": "Russia",
+  "phrase": "Russia",
+  "region": "Europe",
+  "repo_name": "Russia",
+  "language": "RU"
+ },
+ {
+  "name": "San Marino",
+  "phrase": "San Marino",
+  "region": "Europe",
+  "repo_name": "San Marino",
+  "language": "IT"
+ },
+ {
+  "name": "Serbia",
+  "phrase": "Serbia",
+  "region": "Europe",
+  "repo_name": "Serbia",
+  "language": "SR"
+ },
+ {
+  "name": "Slovakia",
+  "phrase": "Slovakia",
+  "region": "Europe",
+  "repo_name": "Slovakia",
+  "language": "SK"
+ },
+ {
+  "name": "Slovenia",
+  "phrase": "Slovenia",
+  "region": "Europe",
+  "repo_name": "Slovenia",
+  "language": "SL"
+ },
+ {
+  "name": "Spain",
+  "phrase": "Spain",
+  "region": "Europe",
+  "repo_name": "Spain",
+  "language": "ES"
+ },
+ {
+  "name": "Sweden",
+  "phrase": "Sweden",
+  "region": "Europe",
+  "repo_name": "Sweden",
+  "language": "SV"
+ },
+ {
+  "name": "Switzerland",
+  "phrase": "Switzerland",
+  "region": "Europe",
+  "repo_name": "Switzerland",
+  "language": "DE/FR/IT"
+ },
+ {
+  "name": "Ukraine",
+  "phrase": "Ukraine",
+  "region": "Europe",
+  "repo_name": "Ukraine",
+  "language": "UK"
+ },
+ {
+  "name": "United Kingdom",
+  "phrase": "the United Kingdom",
+  "region": "Europe",
+  "repo_name": "United Kingdom",
+  "language": "EN"
+ },
+ {
+  "name": "Vatican City State",
+  "phrase": "the Vatican City State",
+  "region": "Europe",
+  "repo_name": "Vatican City",
+  "language": "IT/LA"
+ },
+ {
+  "name": "Antigua and Barbuda",
+  "phrase": "Antigua and Barbuda",
+  "region": "North America",
+  "repo_name": "Antigua and Barbuda",
+  "language": "EN"
+ },
+ {
+  "name": "Bahamas",
+  "phrase": "the Bahamas",
+  "region": "North America",
+  "repo_name": "Bahamas",
+  "language": "EN"
+ },
+ {
+  "name": "Barbados",
+  "phrase": "Barbados",
+  "region": "North America",
+  "repo_name": "Barbados",
+  "language": "EN"
+ },
+ {
+  "name": "Belize",
+  "phrase": "Belize",
+  "region": "North America",
+  "repo_name": "Belize",
+  "language": "EN"
+ },
+ {
+  "name": "Canada",
+  "phrase": "Canada",
+  "region": "North America",
+  "repo_name": "Canada",
+  "language": "EN/FR"
+ },
+ {
+  "name": "Costa Rica",
+  "phrase": "Costa Rica",
+  "region": "North America",
+  "repo_name": "Costa Rica",
+  "language": "ES"
+ },
+ {
+  "name": "Cuba",
+  "phrase": "Cuba",
+  "region": "North America",
+  "repo_name": "Cuba",
+  "language": "ES"
+ },
+ {
+  "name": "Dominica",
+  "phrase": "Dominica",
+  "region": "North America",
+  "repo_name": "Dominica",
+  "language": "EN"
+ },
+ {
+  "name": "Dominican Republic",
+  "phrase": "the Dominican Republic",
+  "region": "North America",
+  "repo_name": "Dominican Republic",
+  "language": "ES"
+ },
+ {
+  "name": "El Salvador",
+  "phrase": "El Salvador",
+  "region": "North America",
+  "repo_name": "El Salvador",
+  "language": "ES"
+ },
+ {
+  "name": "Grenada",
+  "phrase": "Grenada",
+  "region": "North America",
+  "repo_name": "Grenada",
+  "language": "EN"
+ },
+ {
+  "name": "Guatemala",
+  "phrase": "Guatemala",
+  "region": "North America",
+  "repo_name": "Guatemala",
+  "language": "ES"
+ },
+ {
+  "name": "Haiti",
+  "phrase": "Haiti",
+  "region": "North America",
+  "repo_name": "Haiti",
+  "language": "FR"
+ },
+ {
+  "name": "Honduras",
+  "phrase": "Honduras",
+  "region": "North America",
+  "repo_name": "Honduras",
+  "language": "ES"
+ },
+ {
+  "name": "Jamaica",
+  "phrase": "Jamaica",
+  "region": "North America",
+  "repo_name": "Jamaica",
+  "language": "EN"
+ },
+ {
+  "name": "Mexico",
+  "phrase": "Mexico",
+  "region": "North America",
+  "repo_name": "Mexico",
+  "language": "ES"
+ },
+ {
+  "name": "Nicaragua",
+  "phrase": "Nicaragua",
+  "region": "North America",
+  "repo_name": "Nicaragua",
+  "language": "ES"
+ },
+ {
+  "name": "Panama",
+  "phrase": "Panama",
+  "region": "North America",
+  "repo_name": "Panama",
+  "language": "ES"
+ },
+ {
+  "name": "Saint Kitts and Nevis",
+  "phrase": "Saint Kitts and Nevis",
+  "region": "North America",
+  "repo_name": "Saint Kitts and Nevis",
+  "language": "EN"
+ },
+ {
+  "name": "Saint Lucia",
+  "phrase": "Saint Lucia",
+  "region": "North America",
+  "repo_name": "Saint Lucia",
+  "language": "EN"
+ },
+ {
+  "name": "Saint Vincent and the Grenadines",
+  "phrase": "Saint Vincent and the Grenadines",
+  "region": "North America",
+  "repo_name": "Saint Vincent",
+  "language": "EN"
+ },
+ {
+  "name": "Trinidad and Tobago",
+  "phrase": "Trinidad and Tobago",
+  "region": "North America",
+  "repo_name": "Trinidad and Tobago",
+  "language": "EN"
+ },
+ {
+  "name": "United States of America",
+  "phrase": "the United States of America",
+  "region": "North America",
+  "repo_name": "United States of America",
+  "language": "EN"
+ },
+ {
+  "name": "Australia",
+  "phrase": "Australia",
+  "region": "Oceania",
+  "repo_name": "Australia",
+  "language": "EN"
+ },
+ {
+  "name": "Federated States of Micronesia",
+  "phrase": "the Federated States of Micronesia",
+  "region": "Oceania",
+  "repo_name": "Micronesia",
+  "language": "EN"
+ },
+ {
+  "name": "Fiji",
+  "phrase": "Fiji",
+  "region": "Oceania",
+  "repo_name": "Fiji",
+  "language": "EN"
+ },
+ {
+  "name": "Kiribati",
+  "phrase": "Kiribati",
+  "region": "Oceania",
+  "repo_name": "Kiribati",
+  "language": "EN"
+ },
+ {
+  "name": "Marshall Islands",
+  "phrase": "the Marshall Islands",
+  "region": "Oceania",
+  "repo_name": "Marshall Islands",
+  "language": "EN"
+ },
+ {
+  "name": "Nauru",
+  "phrase": "Nauru",
+  "region": "Oceania",
+  "repo_name": "Nauru",
+  "language": "EN"
+ },
+ {
+  "name": "New Zealand",
+  "phrase": "New Zealand",
+  "region": "Oceania",
+  "repo_name": "New Zealand",
+  "language": "EN"
+ },
+ {
+  "name": "Palau",
+  "phrase": "Palau",
+  "region": "Oceania",
+  "repo_name": "Palau",
+  "language": "EN"
+ },
+ {
+  "name": "Papua New Guinea",
+  "phrase": "Papua New Guinea",
+  "region": "Oceania",
+  "repo_name": "Papua New Guinea",
+  "language": "EN"
+ },
+ {
+  "name": "Samoa",
+  "phrase": "Samoa",
+  "region": "Oceania",
+  "repo_name": "Samoa",
+  "language": "EN"
+ },
+ {
+  "name": "Solomon Islands",
+  "phrase": "the Solomon Islands",
+  "region": "Oceania",
+  "repo_name": "Solomon Islands",
+  "language": "EN"
+ },
+ {
+  "name": "Tonga",
+  "phrase": "Tonga",
+  "region": "Oceania",
+  "repo_name": "Tonga",
+  "language": "EN"
+ },
+ {
+  "name": "Tuvalu",
+  "phrase": "Tuvalu",
+  "region": "Oceania",
+  "repo_name": "Tuvalu",
+  "language": "EN"
+ },
+ {
+  "name": "Vanuatu",
+  "phrase": "Vanuatu",
+  "region": "Oceania",
+  "repo_name": "Vanuatu",
+  "language": "EN/BIS"
+ },
+ {
+  "name": "Argentina",
+  "phrase": "Argentina",
+  "region": "South America",
+  "repo_name": "Argentina",
+  "language": "ES"
+ },
+ {
+  "name": "Bolivia",
+  "phrase": "Bolivia",
+  "region": "South America",
+  "repo_name": "Bolivia",
+  "language": "ES"
+ },
+ {
+  "name": "Brazil",
+  "phrase": "Brazil",
+  "region": "South America",
+  "repo_name": "Brazil",
+  "language": "PT"
+ },
+ {
+  "name": "Chile",
+  "phrase": "Chile",
+  "region": "South America",
+  "repo_name": "Chile",
+  "language": "ES"
+ },
+ {
+  "name": "Colombia",
+  "phrase": "Colombia",
+  "region": "South America",
+  "repo_name": "Colombia",
+  "language": "ES"
+ },
+ {
+  "name": "Ecuador",
+  "phrase": "Ecuador",
+  "region": "South America",
+  "repo_name": "Ecuador",
+  "language": "ES"
+ },
+ {
+  "name": "Guyana",
+  "phrase": "Guyana",
+  "region": "South America",
+  "repo_name": "Guyana",
+  "language": "EN"
+ },
+ {
+  "name": "Paraguay",
+  "phrase": "Paraguay",
+  "region": "South America",
+  "repo_name": "Paraguay",
+  "language": "ES"
+ },
+ {
+  "name": "Peru",
+  "phrase": "Peru",
+  "region": "South America",
+  "repo_name": "Peru",
+  "language": "ES"
+ },
+ {
+  "name": "Suriname",
+  "phrase": "Suriname",
+  "region": "South America",
+  "repo_name": "Suriname",
+  "language": "NL"
+ },
+ {
+  "name": "Uruguay",
+  "phrase": "Uruguay",
+  "region": "South America",
+  "repo_name": "Uruguay",
+  "language": "ES"
+ },
+ {
+  "name": "Venezuela",
+  "phrase": "Venezuela",
+  "region": "South America",
+  "repo_name": "Venezuela",
+  "language": "ES"
+ }
+]
